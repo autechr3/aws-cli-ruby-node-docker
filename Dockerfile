@@ -1,7 +1,6 @@
-FROM alpine:3.10.2
+FROM alpine/git:latest
 
 RUN apk add --update \
-    git \
     ruby \
     nodejs \
     npm \
