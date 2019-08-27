@@ -5,4 +5,5 @@ RUN apk add --update \
     ruby-dev \
     nodejs \
     npm \
+    && gem install sass \
     && rm -rf /var/cache/apk/*
