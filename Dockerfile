@@ -7,6 +7,6 @@ RUN apk add -v --update python
 RUN apk add -v --update py-pip
 RUN apk add -v --update nodejs
 RUN apk add -v --update npm
-RUN pip install awscli==$AWSCLI_VERSION --ugprade --user
+RUN pip install awscli==$AWSCLI_VERSION
 RUN apk --purge -v del py-pip
 RUN rm -rf /var/cache/apk/*
