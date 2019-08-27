@@ -8,4 +8,4 @@ RUN apk add --update \
     py-pip \
     && pip install awscli==$AWSCLI_VERSION \
     && apk --purge -v del py-pip \
-    && rm -rf /var/cache/apk/*\ 
+    && rm -rf /var/cache/apk/*
