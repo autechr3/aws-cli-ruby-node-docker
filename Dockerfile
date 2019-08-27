@@ -2,7 +2,7 @@ FROM alpine:3.10.2
 
 ENV AWSCLI_VERSION "1.16.227"
 
-RUN apk add --update \
+RUN apk add -v --update \
     ruby \
     python \
     py-pip \
